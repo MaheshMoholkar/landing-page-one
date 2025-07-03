@@ -5,7 +5,7 @@ import Logo from "@/assets/logosaas.png";
 
 export const Header = () => {
   return (
-    <header className="sticky top-0 backdrop-blur-sm z-20">
+    <header id="header" className="sticky top-0 backdrop-blur-sm z-20">
       <div className="flex justify-center items-center py-3 bg-black text-white text-sm gap-3">
         <p className="text-white/60 hidden md:block">
           Streamline your workflow and boost your productivity
@@ -21,11 +21,11 @@ export const Header = () => {
             <Image src={Logo} alt="Saas Logo" height={40} width={40} />
             <MenuIcon className="h-5 w-5 md:hidden" />
             <nav className="hidden md:flex gap-6 text-black/60 items-center">
-              <a href="#">About</a>
-              <a href="#">Features</a>
-              <a href="#">Customers</a>
-              <a href="#">Updates</a>
-              <a href="#">Help</a>
+              <a href="#about">About</a>
+              <a href="#features">Features</a>
+              <a href="#testimonials">Customers</a>
+              <a href="#cta">Updates</a>
+              <a href="#cta">Help</a>
               <button className="btn btn-primary">Get for free</button>
             </nav>
           </div>
