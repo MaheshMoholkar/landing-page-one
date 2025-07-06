@@ -31,7 +31,8 @@ export const Footer = () => {
           <SocialX />
         </div>
         <p className="mt-6">
-          &copy; 2025 Productivity App. All rights reserved.
+          &copy; {new Date().getFullYear()} Productivity App. All rights
+          reserved.
         </p>
       </div>
     </footer>
